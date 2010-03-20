@@ -1,0 +1,104 @@
+$Id: INSTALL 6 2007-05-23 07:34:01Z eg1981 $
+
+1. Required Software
+
+Make sure you have installed at least following software:
+
+* automake-1.5+
+* autoconf-2.5+
+* gcc-2.95+
+* X11R6 with Xlib and X headers
+* STL library and headers
+
+
+2. Installation of an SVN snapshot:
+
+# ./autogen.sh
+# ./configure
+# make
+# sudo make install
+
+
+3. Installation of a released version:
+
+# ./configure
+# make
+# sudo make install
+
+
+4. Some build notes about configure arguments
+
+4.1. Notes for Xft support
+
+If you've installed Xft and freetype NCWM will build with
+Xft support by default. If Xft is not installed NCWM won't
+build with Xft support. If you explicitly don't want Xft
+support, although having Xft installed just use following
+configure argument:
+
+./configure --without-xft
+
+4.2. Notes for stacked tabbing
+
+NCWM supports stacked tabbing with stack-alike visual
+feedback within frame bars, groups and pagers. This feature
+is not seen in any other window manager but disabled by
+default. It's highly recommended to give it a try. All
+focussed clients, groups, workspaces are arranged in
+stacking order from left to right, the topmost element
+is arranged leftwards and the bottom element is arranged
+rightwards.
+This results that the focussed element (e.g. a client in
+a frame bar or group bar) appears always left, thus the
+focus never changes, but the titles and order.
+Just use following configure argument:
+
+./configure --with-stacked-tabbing
+
+4.3. Notes for debug support
+
+To run NCWM with verbose debug output you've to configure it
+with debug support:
+
+./configure --with-debug
+
+4.4. Notes for diamond box
+
+By default NCWM draws a diamond box while resizing/moving
+clients. If you don't like drawing the diamond box you
+can disable it using:
+
+./configure --without-diamond
+
+4.5. Notes for disabling the slot
+
+By default NCWM is built with slot support.
+If you don't need it you can disable it using:
+
+./configure --without-slot
+
+
+5. Start NCWM
+
+To start NCWM as your default window manager add following line
+to your $HOME/.xinitrc:
+
+exec ncwm
+
+and type
+
+# startx
+
+afterwards to launch X and the NCWM.
+
+
+6. Further Help
+
+To get in contact with NCWM you should read at least the manual
+pages ncwm(1) and actions.conf(5).
+
+
+7. Contact
+
+If you've problems visit http://ncwm.sf.net to get further
+information.

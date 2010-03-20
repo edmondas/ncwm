@@ -1,0 +1,14 @@
+Katryn Anderson proposed following entry to
+/usr/share/apps/kdm/sessions if you're using the
+KDM login manager:
+----------------------------------------------------------
+[Desktop Entry]
+Encoding=UTF-8 
+Type=XSession
+Exec=ncwm
+TryExec=ncwm
+Name=NCWM
+Name[xx]=xxNCWMxx
+Comment=No Cheese Window Manager
+Comment[xx]=xxNo Cheese Window Managerxxxxxxxxxxxxxxxxxxx
+----------------------------------------------------------

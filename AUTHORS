@@ -1,0 +1,16 @@
+$Id: AUTHORS 13 2008-04-18 08:02:14Z eg1981 $
+
+Current developers of the NCWM:
+
+	- Edmondas Girkantas <eg at fbsd.lt>
+
+
+Past developers of the WMI:
+
+    - Anselm R. Garbe <anselmg at t-online.de>
+    - Marcel Manthe <-0m0- at web.de>
+    - Oliver Rendgen <oli at hypeo.de> (Documentation)
+    - John Pham <jhnphm at gmail.com> (Debian packager)
+    - PEYROUX Jean <alnix at phear.org> (BSD ports maintainer)
+    - Matthew Allen <matthew at lith.com> (Art asset developer)
+    - Dr. Johann Pfefferl <johann.pfefferl at agfa.com>

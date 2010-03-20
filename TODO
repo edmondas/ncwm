@@ -1,0 +1,14 @@
+$Id: TODO 6 2007-05-23 07:34:01Z eg1981 $
+
+TODOs for ncwm-0.1:
+
++ add more themes 
++ code cleanup 
++ more powerful statusbar
++ fix problems with java apps
++ fix mplayer full screen bug 
++ find why ncwm crahes 
++ fix no name workspace bug
+? change default theme
+? change default keyboard bindings (alt+f problems in programs with menu) 
+? logging of keyboard work for statistics 

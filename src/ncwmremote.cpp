@@ -13,6 +13,7 @@ extern "C" {
 #include <X11/Xutil.h>
 }
 
+#include <cstdlib>
 #include <iostream>
 #include <string>
 

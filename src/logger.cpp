@@ -4,6 +4,7 @@
 //
 // $Id: logger.cpp 13 2008-04-18 08:02:14Z eg1981 $
 
+#include <cstdlib>
 #include <iostream>
 
 #include "logger.h"

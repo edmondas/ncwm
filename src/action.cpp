@@ -4,7 +4,8 @@
 //
 // $Id: action.cpp 13 2008-04-18 08:02:14Z eg1981 $
 
-#include <string>
+#include <cstdlib>
+#include <cstring>
 #include "ncwm.h"
 
 #include "action.h"

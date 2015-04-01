@@ -1,0 +1,1 @@
+No Cheese Window Manager (ncwm) is a lightweight window manager for the X Window System, fork of Window Manager Improved (wmi). It attempts to use keyboard on every task the user wants to do, if possible, no mouse, no cheese.
